@@ -10,7 +10,7 @@ function NavigationBar(){
             onClick={()=>console.log("Projects")} 
           />
         </Link>
-        <Link href={'#Github'}>
+        <Link href={'https://github.com/carocodingk/'}>
           <input type="button" 
             value="Github" 
             onClick={()=>console.log("Github")} 
