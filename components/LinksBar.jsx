@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function NavigationBar(){
+function LinksBar(){
   return(
     <div>
       <div>
@@ -27,4 +27,4 @@ function NavigationBar(){
   );
 }
 
-export default NavigationBar
+export default LinksBar

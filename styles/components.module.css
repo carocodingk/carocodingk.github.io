@@ -1,0 +1,36 @@
+#homepage {
+  /* background-color: rgb(176, 186, 187); */
+  background-color: #99B0B0;
+  font-size: 19px;
+}
+
+#aboutme {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  width: 80vw;
+  /* margin: auto; */
+  border: 1px solid black;
+}
+
+#aboutme_img{
+  margin: 3rem;
+}
+
+.project {
+  display: flex;
+  border: 1px solid ;
+  border-radius: 10px;
+  width: 60vw;
+  padding: 1rem;
+}
+
+.project_data{
+  padding: 0 1rem;
+}
+
+.project_title {
+  display: flex;
+  align-items: baseline;
+  font-size: 20px;
+}
