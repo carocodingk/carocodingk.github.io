@@ -29,8 +29,8 @@
 					"ipsum' will uncover many web sites still in their infancy. Various versions have ",
 					"evolved over the years, sometimes by accident, sometimes on purpose (injected ",
 					"humour and the like)."],
-			"link1": "https://github.com/carocodingk/PomodoroTracker",
-			"link2": "https://nextjs.org/docs/app/getting-started/images-and-fonts"
+			"url1": "https://github.com/carocodingk/PomodoroTracker",
+			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts"
 		},
 		{
 			"title": "Task List",
@@ -45,8 +45,8 @@
 					"ipsum' will uncover many web sites still in their infancy. Various versions have ",
 					"evolved over the years, sometimes by accident, sometimes on purpose (injected ",
 					"humour and the like)."],
-			"link1": "https://github.com/carocodingk/PomodoroTracker",
-			"link2": "https://nextjs.org/docs/app/getting-started/images-and-fonts"
+			"url1": "https://github.com/carocodingk/PomodoroTracker",
+			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts"
 		}
 	]
 

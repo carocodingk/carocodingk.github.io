@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import ProjectButtons from "./ProjectButtons";
 
 function ProjectCard({project}){
 return(
@@ -7,20 +7,14 @@ return(
     <Image src= {project.image} 
       width={300}
       height={300} />
-    <h5>{project.title}</h5>
-    <p>{project.description}</p>
     <div>
-      <Link href={project.link1}>
-        <input type="button"
-          value={'Github'}
-        />
-      </Link>
-      <Link href={project.link2}>
-        <input type="button"
-          value={'site'}
-        />
-      </Link>
+      <div>
+        <h5>{project.title}</h5>
+        <ProjectButtons url1={project.url1} url2={project.url2} />
+      </div>
     </div>
+
+    <p>{project.description}</p>
   </div>
 );
 }
