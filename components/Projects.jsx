@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(){
   return(
-    <div>
+    <div id='Projects'>
       {info.Projects.map((project) => 
         <ProjectCard project={project} />
       )}

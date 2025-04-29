@@ -10,11 +10,22 @@
   height: 100vh;
   width: 80vw;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 #aboutme_img{
   margin: 3rem;
+}
+
+#link_bar {
+  border: 1px solid pink;
+  display: flex;
+  justify-content: center;
+}
+.link_button{
+  width: 80px;
+  height: 40px;
+  margin: 0 5px;
 }
 
 .project {
