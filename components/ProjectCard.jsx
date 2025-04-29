@@ -4,7 +4,7 @@ import style from "../styles/components.module.css"
 
 function ProjectCard({project}){
 return(
-  <div className={style.project}>
+  <div className={style.project_card}>
     <Image src= {project.image} 
       width={200}
       height={200} />
@@ -13,7 +13,9 @@ return(
         <h5>{project.title}</h5>
         <ProjectButtons url1={project.url1} url2={project.url2} />
       </div>
-      <p>{project.description}</p>
+      <div className={style.project_description}>
+        {project.description}
+      </div>
     </div>
   </div>
 );
