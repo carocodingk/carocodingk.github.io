@@ -1,17 +1,16 @@
 import Link from "next/link";
+import { FaGithub, FaExternalLinkAlt  } from "react-icons/fa";
+import style from "../styles/components.module.css";
+// import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ProjectButtons({url1, url2}){
   return(
-    <div>
+    <div className={style.project_buttons}  >
       <Link href={url1}>
-        <input type="button"
-          value={'Github'}
-        />
+        <FaGithub className={style.project_icons} />
       </Link>
       <Link href={url2}>
-        <input type="button"
-          value={'site'}
-        />
+        <FaExternalLinkAlt className={style.project_icons} />
       </Link>
     </div>
   );
