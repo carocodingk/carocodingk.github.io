@@ -23,7 +23,7 @@
 
 #aboutme_occupation {
   color: #FCFAF0;
-  
+  font-weight: bold;
   padding: 1rem 0;
   /* border: 1px solid red; */
 }
@@ -62,35 +62,38 @@
   background-color: #8A9EA0;
 }
 
-.project {
-  display: flex;
-  justify-content: space-around;
+#project_title {
+  font-weight: bold;
+  color: #FCFAF0;
+  text-align: center;
+  padding-bottom: 1.8em;
 }
 
 .project_card {
   display: flex;
-  border: 1px solid ;
-  border-radius: 10px;
-  /* width: 40vw; */
+  border: 1px solid #FCFAF0;
+  background-color: #96b3b3;
+  width: 60vw;
   padding: 1rem;
+  margin: 0 auto 1.2em;
 }
 
-.project_data{
+.project_card_data{
   padding: 0 1rem;
 }
 
-.project_title {
+#project_card_title {
   display: flex;
-  align-items: baseline;
-  
-  font-size: 20px;
-  border: 1px solid sandybrown;
+  flex-wrap: nowrap;
+  /* flex-direction: row; */
+  /* align-items: baseline;   */
+  /* border: 1px solid red; */
 }
 
 .project_buttons {
   display: flex;
   /* flex-wrap: nowrap; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .project_icons {
@@ -98,7 +101,7 @@
   margin: 0 10px;
 }
 
-.project_description {
+/* .project_description {
   background-color: red;
 
-}
+} */
