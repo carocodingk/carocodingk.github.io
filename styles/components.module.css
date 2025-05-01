@@ -1,5 +1,4 @@
 #homepage {
-  /* background-color: #99B0B0; */
   font-size: 18px;
   background-image: linear-gradient(to bottom right, #99b0b0, #DFE6E6);
 }
@@ -10,7 +9,6 @@
   height: 100vh;
   width: 80vw;
   margin: auto;
-  /* border: 1px solid black; */
 }
 
 #aboutme_img{
@@ -25,16 +23,13 @@
   color: #FCFAF0;
   font-weight: bold;
   padding: 1rem 0;
-  /* border: 1px solid red; */
 }
 
 #aboutme_text{
-  /* padding: 0.5rem 0; */
   line-height: 2rem;
 }
 
 #aboutme ul {
-  /* border: 1px solid red; */
   list-style-type: circle;
   list-style-position: inside;
 }
@@ -42,7 +37,6 @@
 
 
 #link_bar {
-  /* border: 1px solid pink; */
   display: flex;
   justify-content: center;
 }
@@ -85,15 +79,10 @@
 #project_card_title {
   display: flex;
   flex-wrap: nowrap;
-  /* flex-direction: row; */
-  /* align-items: baseline;   */
-  /* border: 1px solid red; */
 }
 
 .project_buttons {
   display: flex;
-  /* flex-wrap: nowrap; */
-  /* border: 1px solid black; */
 }
 
 .project_icons {
@@ -101,7 +90,8 @@
   margin: 0 10px;
 }
 
-/* .project_description {
-  background-color: red;
 
+
+/* @media screen and () {
+  
 } */
