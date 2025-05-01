@@ -1,46 +1,30 @@
 #homepage {
-  font-size: 18px;
+  font-size: 15px;
   background-image: linear-gradient(to bottom right, #99b0b0, #DFE6E6);
+  padding: 1em;
 }
 
-#aboutme {
+/* #aboutme div{
   display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 80vw;
-  margin: auto;
-}
+  flex-direction: column;
+  justify-content: center;
+} */
 
 #aboutme_img{
-  margin: 3rem;
+  /* margin: 3rem; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 2em;
+  border: 1px solid pink;
 }
 
-#aboutme_name {
-  font-size: 2.8em;
-}
-
-#aboutme_occupation {
-  color: #FCFAF0;
-  font-weight: bold;
-  padding: 1rem 0;
-}
-
-#aboutme_text{
-  line-height: 2rem;
-}
-
-#aboutme ul {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-
-
-
-#link_bar {
+#linksbar {
   display: flex;
   justify-content: center;
+  margin: 1.5em 0 1em;
 }
-.link_button{
+
+.linksbar_button{
   width: 90px;
   height: 40px;
   margin: 0 5px;
@@ -52,43 +36,6 @@
   border-radius: 5px;
 }
 
-.link_button:hover {
-  background-color: #8A9EA0;
-}
-
-#project_title {
-  font-weight: bold;
-  color: #FCFAF0;
-  text-align: center;
-  padding-bottom: 1.8em;
-}
-
-.project_card {
-  display: flex;
-  border: 1px solid #FCFAF0;
-  background-color: #96b3b3;
-  width: 60vw;
-  padding: 1rem;
-  margin: 0 auto 1.2em;
-}
-
-.project_card_data{
-  padding: 0 1rem;
-}
-
-#project_card_title {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.project_buttons {
-  display: flex;
-}
-
-.project_icons {
-  font-size: 23px;
-  margin: 0 10px;
-}
 
 
 

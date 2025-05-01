@@ -23,7 +23,6 @@ function AboutMe(){
           <h4 className={abril_fatface.className}>SKILLS</h4>
           <SiCplusplus />
           <SiCplusplusbuilder />
-          {/* <TbBrandJavascript /> */}
           <SiJavascript />
           <SiCsswizardry />
         </div>
