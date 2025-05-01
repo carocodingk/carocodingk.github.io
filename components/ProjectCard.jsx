@@ -5,16 +5,16 @@ import style from "../styles/components.module.css"
 
 function ProjectCard({project}){
   return(
-    <div className={style.project_card}>
+    <div className={style.projectcard}>
       <Image src= {project.image} 
         width={200}
         height={200} />
-      <div className={style.project_card_data}>
-        <div id={style.project_card_title} className={abril_fatface.className} >
-          <h4>{project.title}</h4>
+      <div>
+        <div id={style.projectcard_title}>
+          <h3 className={abril_fatface.className}>{project.title}</h3>
           <ProjectButtons url1={project.url1} url2={project.url2} />
         </div>
-        <div className={style.project_description}>
+        <div>
           {project.description}
         </div>
       </div>

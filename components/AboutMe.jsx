@@ -23,11 +23,11 @@ function AboutMe(){
         <div id={style.aboutme_text} className={lato.className}>{info.AboutMe['description']}</div>
         <div>
           <h3 id={style.aboutme_skills_title} className={special_elite.className}>SKILLS</h3>
-          <div id={style.aboutme_skills_icons}>
-            <SiCplusplus />
-            <SiCplusplusbuilder />
-            <SiJavascript />
-            <SiCsswizardry />
+          <div id={style.aboutme_skills_container}>
+            <SiCplusplus className={style.aboutme_skills_icons} />
+            <SiCplusplusbuilder className={style.aboutme_skills_icons} />
+            <SiJavascript className={style.aboutme_skills_icons} />
+            <SiCsswizardry className={style.aboutme_skills_icons} />
           </div>
         </div>
       </div>

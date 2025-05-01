@@ -45,8 +45,12 @@
   text-align: right;
 }
 
-#aboutme_skills_icons {
+#aboutme_skills_container {
   margin-bottom: 3em;
+}
+
+.aboutme_skills_icons{
+  font-size: 5em;
 }
 
 /* ************************************ */
@@ -72,8 +76,48 @@
   background-color: #8A9EA0;
 }
 /* ************************************ */
+#projects_title {
+  font-weight: bold;
+  padding-top: 3em;
+  margin-bottom: 0.8em;
+  text-align: right;
+}
+
+/* ************************************ */
+.projectcard {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #FCFAF0;
+  background-color: #96b3b3;
+  padding: 1em 1em 1.5em;
+  margin-bottom: 2em;
+}
+
+#projectcard_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 0.5em;
+}
 
 
+/* ************************************ */
+.projectbutton_icon{
+  font-size: 1.6em;
+  margin-left: 0.8em;
+}
+
+
+/* .project_buttons {
+  display: flex;
+} */
+
+/* .project_icons {
+  font-size: 23px;
+  margin: 0 10px;
+} */
+/* ************************************ */
 
 /* @media screen and () {
   
