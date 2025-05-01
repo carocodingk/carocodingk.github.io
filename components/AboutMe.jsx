@@ -8,13 +8,13 @@ import { SiCplusplus, SiCplusplusbuilder, SiJavascript, SiCsswizardry } from "re
 
 function AboutMe(){
   return(
-    <div id={style.aboutme}>
+    <div>
       <div>
-        <div id={style.test}>
-        <Image id={style.aboutme_img} src={info.AboutMe['image']} 
-          width={300}
-          height={300}/>
-          </div>
+        <div id={style.aboutme_container}>
+          <Image id={style.aboutme_img} src={info.AboutMe['image']} 
+            width={300}
+            height={300}/>
+        </div>
         <LinksBar />
       </div>
       <div>
@@ -22,11 +22,13 @@ function AboutMe(){
         <h2 id={style.aboutme_occupation } className={special_elite.className}>{info.AboutMe['occupation'].toUpperCase()}</h2>
         <div id={style.aboutme_text} className={lato.className}>{info.AboutMe['description']}</div>
         <div>
-          <h4 className={abril_fatface.className}>SKILLS</h4>
-          <SiCplusplus />
-          <SiCplusplusbuilder />
-          <SiJavascript />
-          <SiCsswizardry />
+          <h3 id={style.aboutme_skills_title} className={special_elite.className}>SKILLS</h3>
+          <div id={style.aboutme_skills_icons}>
+            <SiCplusplus />
+            <SiCplusplusbuilder />
+            <SiJavascript />
+            <SiCsswizardry />
+          </div>
         </div>
       </div>
     </div>

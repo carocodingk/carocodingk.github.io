@@ -1,28 +1,55 @@
 #homepage {
   font-size: 15px;
-  background-image: linear-gradient(to bottom right, #99b0b0, #DFE6E6);
-  padding: 1em;
+  /* background-image: linear-gradient(to bottom right, #99b0b0, #DFE6E6); */
+  background-color: #99B0B0;
+  color: #FCFAF0;
+  padding: 3em 1em 1em;
 }
 
-/* #aboutme div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* ************************************ */
+/* #aboutme {
+  border: 1px solid red;
 } */
 
-#aboutme_img{
-  /* margin: 3rem; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  margin-top: 2em;
-  /* border: 1px solid pink; */
-}
-
-#test {
+#aboutme_container {
   display: flex;
   justify-content: center;
 }
 
+#aboutme_img{
+  width: 200px;
+  height: 200px;
+  margin-top: 2em;
+}
+
+#aboutme_name {
+  color: black; 
+  font-weight: bold;
+  margin: 1em 0 0.3em;
+  text-align: right;
+}
+
+#aboutme_occupation {
+  font-weight: bold;
+  text-align: right;
+}
+#aboutme_text{
+  padding-top: 0.8em;
+  margin-bottom: 3em;  /*DELIMITS SPACE BETWEEN TEXT AND SKILLS*/
+  line-height: 1.2rem;
+}
+
+#aboutme_skills_title {
+  font-weight: bold;
+  margin-bottom: 0.8em;
+  text-align: right;
+}
+
+#aboutme_skills_icons {
+  margin-bottom: 3em;
+}
+
+/* ************************************ */
 #linksbar {
   display: flex;
   justify-content: center;
@@ -41,6 +68,10 @@
   border-radius: 5px;
 }
 
+.linksbar_button:hover {
+  background-color: #8A9EA0;
+}
+/* ************************************ */
 
 
 

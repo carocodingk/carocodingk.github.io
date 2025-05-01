@@ -19,15 +19,15 @@
   font-size: 2.8em;
 }
 
-#aboutme_occupation {
+/* #aboutme_occupation {
   color: #FCFAF0;
   font-weight: bold;
   padding: 1rem 0;
-}
+} */
 
-#aboutme_text{
+/* #aboutme_text{
   line-height: 2rem;
-}
+} */
 
 #aboutme ul {
   list-style-type: circle;
@@ -52,9 +52,9 @@
   border-radius: 5px;
 } */
 
-.link_button:hover {
+/* .link_button:hover {
   background-color: #8A9EA0;
-}
+} */
 
 #project_title {
   font-weight: bold;
