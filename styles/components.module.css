@@ -15,7 +15,12 @@
   /* margin-left: auto;
   margin-right: auto; */
   margin-top: 2em;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
+}
+
+#test {
+  display: flex;
+  justify-content: center;
 }
 
 #linksbar {

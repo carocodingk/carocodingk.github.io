@@ -10,9 +10,11 @@ function AboutMe(){
   return(
     <div id={style.aboutme}>
       <div>
+        <div id={style.test}>
         <Image id={style.aboutme_img} src={info.AboutMe['image']} 
           width={300}
           height={300}/>
+          </div>
         <LinksBar />
       </div>
       <div>
