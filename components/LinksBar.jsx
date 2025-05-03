@@ -18,13 +18,6 @@ function LinksBar(){
             onClick={()=>console.log("Github")} 
           />
         </Link>
-        <Link href={'#SayHello'}>
-          <input type="button" 
-            className={style.linksbar_button}
-            value="Say Hello!" 
-            onClick={()=>console.log("Say Hello!")} 
-          />
-        </Link>
     </div>
   );
 }
