@@ -3,8 +3,10 @@ import LinksBar from "./LinksBar";
 import info from "../content/info.json";
 import style from "../styles/components.module.css"
 import {abril_fatface, lato, special_elite} from "../styles/fonts"
-import { SiCplusplus, SiCplusplusbuilder, SiJavascript, SiCsswizardry } from "react-icons/si";
-// import { TbBrandJavascript } from "react-icons/tb";
+import { SiCplusplus, SiMysql } from "react-icons/si";
+import { FaReact, FaPython } from "react-icons/fa"
+import { RiNextjsLine} from "react-icons/ri";
+import { TbBrandJavascript, TbFileTypeCss, TbFileTypeHtml } from "react-icons/tb";
 
 function AboutMe(){
   return(
@@ -24,10 +26,14 @@ function AboutMe(){
         <div>
           <h3 id={style.aboutme_skills_title} className={special_elite.className}>SKILLS</h3>
           <div id={style.aboutme_skills_container}>
+            <TbBrandJavascript className={style.aboutme_skills_icons}/>
+            <FaReact className={style.aboutme_skills_icons} />
+            <RiNextjsLine className={style.aboutme_skills_icons} /> 
             <SiCplusplus className={style.aboutme_skills_icons} />
-            <SiCplusplusbuilder className={style.aboutme_skills_icons} />
-            <SiJavascript className={style.aboutme_skills_icons} />
-            <SiCsswizardry className={style.aboutme_skills_icons} />
+            <FaPython className={style.aboutme_skills_icons} />
+            <TbFileTypeHtml  className={style.aboutme_skills_icons}/>
+            <TbFileTypeCss className={style.aboutme_skills_icons}/>
+            <SiMysql className={style.aboutme_skills_icons}/>
           </div>
         </div>
       </div>
