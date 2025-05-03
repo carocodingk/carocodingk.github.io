@@ -3,7 +3,7 @@ import LinksBar from "./LinksBar";
 import info from "../content/info.json";
 import style from "../styles/components.module.css"
 import {abril_fatface, lato, special_elite} from "../styles/fonts"
-import { SiCplusplus, SiMysql } from "react-icons/si";
+import { SiCplusplus, SiMysql, SiMultisim, SiLabview, SiJupyter, SiTableau } from "react-icons/si";
 import { FaReact, FaPython } from "react-icons/fa"
 import { RiNextjsLine} from "react-icons/ri";
 import { TbBrandJavascript, TbFileTypeCss, TbFileTypeHtml } from "react-icons/tb";
@@ -34,6 +34,10 @@ function AboutMe(){
             <TbFileTypeHtml  className={style.aboutme_skills_icons}/>
             <TbFileTypeCss className={style.aboutme_skills_icons}/>
             <SiMysql className={style.aboutme_skills_icons}/>
+            <SiJupyter className={style.aboutme_skills_icons}/>
+            <SiTableau className={style.aboutme_skills_icons}/>
+            <SiMultisim className={style.aboutme_skills_icons}/>
+            <SiLabview className={style.aboutme_skills_icons}/>
           </div>
         </div>
       </div>
