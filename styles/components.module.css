@@ -8,7 +8,7 @@
 
 /* ************************************ */
 /* #aboutme {
-  border: 1px solid red;
+  border: 1px solid orange;
 } */
 
 #aboutme_container {
@@ -39,21 +39,27 @@
   line-height: 1.2rem;
 }
 
-#aboutme_skills_title {
+/* ************************************ */
+/* #skills {
+  border: 1px solid orange;
+} */
+
+#skills_title {
   font-weight: bold;
+  padding-top: 1em;
   margin-bottom: 0.8em;
   text-align: right;
 }
 
-#aboutme_skills_container {
+#skills_container {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
-  margin-bottom: 3em;
+  margin-bottom: 2.2em;
   /* border: 1px solid yellow; */
 }
 
-.aboutme_skills_icons{
+.skills_icons{
   font-size: 5em;
   margin: 10px 5px;
   /* border: 1px solid orange; */
@@ -82,9 +88,13 @@
   background-color: #8A9EA0;
 }
 /* ************************************ */
+/* .projects {
+  border: 1px solid blue;
+} */
+
 #projects_title {
   font-weight: bold;
-  padding-top: 3em;
+  padding-top: 1em;
   margin-bottom: 0.8em;
   text-align: right;
 }
@@ -125,6 +135,13 @@
 } */
 /* ************************************ */
 
-/* @media screen and () {
-  
-} */
+@media screen and (min-width: 700px) {
+  #aboutme {
+    display: flex;
+  }
+
+  #linksbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
