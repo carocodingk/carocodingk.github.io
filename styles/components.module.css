@@ -105,6 +105,10 @@
   margin-left: 0.8em;
 }
 
+.projectbutton_icon:hover{
+  color: black;
+}
+
 /* ************************************ */
 @media screen and (min-width: 600px) {
   #homepage{
