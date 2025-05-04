@@ -99,6 +99,10 @@
   margin-bottom: 0.5em;
 }
 
+.projectcard div {
+  padding-bottom: 0.5em;
+}
+
 /* ************************************ */
 .projectbutton_icon{
   font-size: 1.6em;
