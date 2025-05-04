@@ -86,7 +86,7 @@
 /* ************************************ */
 .projectcard {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   border: 1px solid #FCFAF0;
   background-color: #96b3b3;
   padding: 1em 1em 1.5em;
@@ -111,6 +111,19 @@
 
 .projectbutton_icon:hover{
   color: black;
+}
+
+/* ************************************ */
+#projecttechnology {
+  display: flex;
+}
+
+.projecttech_item {
+  background-color: #8A9EA0;
+  border: 1px solid #FCFAF0;
+  padding: 0.2em 0.5em;
+  margin-right: 1em;
+  /* max-width: 10em; */
 }
 
 /* ************************************ */
@@ -144,7 +157,7 @@
 
 @media screen and (min-width: 830px) {
   .projectcard {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
   }
 
@@ -192,8 +205,10 @@
   }
   .projectcard {
     width: 38vw;
-    flex-direction: column-reverse;
-    align-items: flex-start;
+  }
+
+  #projectcard_image {
+    margin-right: auto;
   }
 
   #projectcard_title {
@@ -204,6 +219,5 @@
 
   .projectcard div {
     padding-left: 0em;
-    padding-bottom: 1em;
   }
 }
