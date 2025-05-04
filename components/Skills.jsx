@@ -7,7 +7,7 @@ import { TbBrandJavascript, TbFileTypeCss, TbFileTypeHtml } from "react-icons/tb
 
 function Skills(){
   return(
-    <div id='Skills'>
+    <div id='Skills' className={style.skills}>
       <h3 id={style.skills_title} className={special_elite.className}>SKILLS</h3>
       <div id={style.skills_container}>
         <TbBrandJavascript className={style.skills_icons}/>

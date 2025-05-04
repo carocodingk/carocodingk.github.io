@@ -1,16 +1,11 @@
 #homepage {
   font-size: 15px;
-  /* background-image: linear-gradient(to bottom right, #99b0b0, #DFE6E6); */
   background-color: #99B0B0;
   color: #FCFAF0;
   padding: 3em 1em 1em;
 }
 
 /* ************************************ */
-/* #aboutme {
-  border: 1px solid orange;
-} */
-
 #aboutme_container {
   display: flex;
   justify-content: center;
@@ -40,10 +35,6 @@
 }
 
 /* ************************************ */
-/* #skills {
-  border: 1px solid orange;
-} */
-
 #skills_title {
   font-weight: bold;
   padding-top: 1em;
@@ -54,15 +45,12 @@
 #skills_container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   margin-bottom: 2.2em;
-  /* border: 1px solid yellow; */
 }
 
 .skills_icons{
   font-size: 5em;
   margin: 10px 5px;
-  /* border: 1px solid orange; */
 }
 
 /* ************************************ */
@@ -88,10 +76,6 @@
   background-color: #8A9EA0;
 }
 /* ************************************ */
-/* .projects {
-  border: 1px solid blue;
-} */
-
 #projects_title {
   font-weight: bold;
   padding-top: 1em;
@@ -111,12 +95,9 @@
 
 #projectcard_title{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
   margin-bottom: 0.5em;
 }
-
 
 /* ************************************ */
 .projectbutton_icon{
@@ -124,24 +105,101 @@
   margin-left: 0.8em;
 }
 
-
-/* .project_buttons {
-  display: flex;
-} */
-
-/* .project_icons {
-  font-size: 23px;
-  margin: 0 10px;
-} */
 /* ************************************ */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
+  #homepage{
+    border: 1px solid orange;
+    padding: 3em 3em 1em;
+  }
+}
+
+@media screen and (min-width: 750px) {
   #aboutme {
     display: flex;
+    margin-bottom: 1.8em;
+    /* border: 1px solid blue; */
+  }
+
+  #aboutme_rightpannel {
+    padding: 0 2em;
   }
 
   #linksbar {
     flex-direction: column;
     align-items: center;
+  }
+
+  .linksbar_button {
+    width: 200px;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .projectcard {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .projectcard div {
+    padding-left: 0.5em;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  #aboutme {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .skills {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .projects {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .projectcard {
+    padding:2em 2em 1.5em;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  #skills_container {
+    justify-content: center
+  }
+}
+
+@media screen and (min-width: 1300px){
+  #aboutme {
+    width: 70vw;
+    /* border: 1px solid red; */
+  }
+
+  .projects div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .projectcard {
+    width: 38vw;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  #projectcard_title {
+    width: 100%;
+    height: 2.3em;
+    padding-bottom: 0;
+    /* border: 1px solid red; */
+  }
+
+  .projectcard div {
+    padding-left: 0em;
+    padding-bottom: 1em;
   }
 }
