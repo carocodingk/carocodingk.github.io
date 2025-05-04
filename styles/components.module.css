@@ -121,9 +121,9 @@
 .projecttech_item {
   background-color: #8A9EA0;
   border: 1px solid #FCFAF0;
-  padding: 0.2em 0.5em;
+  border-radius: 12px;
+  padding: 0.5em 1em;
   margin-right: 1em;
-  /* max-width: 10em; */
 }
 
 /* ************************************ */
