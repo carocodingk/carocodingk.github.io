@@ -9,9 +9,14 @@ function ProjectButtons({url1, url2}){
       <Link href={url1}>
         <FaGithubAlt className={style.projectbutton_icon} />
       </Link>
-      <Link href={url2}>
-        <FaRegEye className={style.projectbutton_icon} />
-      </Link>
+      {url2.length > 0?
+        <Link href={url2}>
+          <FaRegEye className={style.projectbutton_icon} />
+        </Link>
+        :
+        null      
+      }
+
     </div>
   );
 }
