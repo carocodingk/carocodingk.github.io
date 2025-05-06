@@ -7,12 +7,12 @@ import ProjectTechnology from "./ProjectTechnology";
 function ProjectCard({project}){
   return(
     <div className={style.projectcard}>
-      <div>
+      <div className={style.projectcard_text}>
         <div id={style.projectcard_title}>
           <h3 className={abril_fatface.className}>{project.title}</h3>
           <ProjectButtons url1={project.url1} url2={project.url2} />
         </div>
-        <div>
+        <div className={style.projectcard_description}>
           {project.description}
         </div>
         <ProjectTechnology technology={project.technology}/>

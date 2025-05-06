@@ -75,6 +75,7 @@
 .linksbar_button:hover {
   background-color: #8A9EA0;
 }
+
 /* ************************************ */
 #projects_title {
   font-weight: bold;
@@ -114,22 +115,24 @@
 }
 
 /* ************************************ */
-#projecttechnology {
+#projecttechnology{
   display: flex;
 }
 
 .projecttech_item {
   background-color: #8A9EA0;
   border: 1px solid #FCFAF0;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   border-radius: 12px;
-  padding: 0.5em 1em;
   margin-right: 1em;
 }
 
 /* ************************************ */
 @media screen and (min-width: 600px) {
   #homepage{
-    border: 1px solid orange;
     padding: 3em 3em 1em;
   }
 }
@@ -161,9 +164,14 @@
     align-items: center;
   }
 
-  .projectcard div {
-    padding-left: 0.5em;
+  .projectcard_text {
+    padding-left: 1em;
   }
+
+  .projecttech_item {
+    padding-right: 0.5em;
+  }
+
 }
 
 @media screen and (min-width: 950px) {
@@ -214,10 +222,9 @@
   #projectcard_title {
     width: 100%;
     height: 2.3em;
-    padding-bottom: 0;
   }
 
-  .projectcard div {
-    padding-left: 0em;
+  .projectcard_text{
+    padding-left: 0;
   }
 }
