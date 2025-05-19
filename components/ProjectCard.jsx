@@ -13,7 +13,17 @@ function ProjectCard({project}){
           <ProjectButtons url1={project.url1} url2={project.url2} />
         </div>
         <div className={style.projectcard_description}>
-          {project.description}
+          {project.description.map((line, key) => 
+            <p key={key}>{line}</p>
+          )}
+          {project.description_list.length > 0?
+            <ul>
+              {project.description_list.map((item, key) =>
+                <li>{item}</li>
+              )}
+            </ul>
+            :
+            null}
         </div>
         <ProjectTechnology technology={project.technology}/>
       </div>
