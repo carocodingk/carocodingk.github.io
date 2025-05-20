@@ -5,7 +5,7 @@ import style from "../styles/components.module.css";
 
 function ProjectButtons({url1, url2}){
   return(
-    <div>
+    <div id={style.projectbutton_div}>
       <Link href={url1}>
         <FaGithubAlt className={style.projectbutton_icon} />
       </Link>

@@ -12,12 +12,12 @@ function ProjectCard({project}){
           <h3 className={abril_fatface.className}>{project.title}</h3>
           <ProjectButtons url1={project.url1} url2={project.url2} />
         </div>
-        <div className={style.projectcard_description}>
+        <div>
           {project.description.map((line, key) => 
             <p key={key}>{line}</p>
           )}
           {project.description_list.length > 0?
-            <ul>
+            <ul className={style.projectcard_description_list}>
               {project.description_list.map((item, key) =>
                 <li>{item}</li>
               )}

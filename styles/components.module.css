@@ -1,5 +1,5 @@
 #homepage {
-  font-size: 15px;
+  font-size: 16px;
   background-color: #99B0B0;
   color: #FCFAF0;
   padding: 3em 1em 1em;
@@ -29,9 +29,13 @@
   text-align: right;
 }
 #aboutme_text{
-  padding-top: 0.8em;
+  padding-top: 1em;
   margin-bottom: 3em;  /*DELIMITS SPACE BETWEEN TEXT AND SKILLS*/
-  line-height: 1.2rem;
+  /* line-height: 1.2rem; */
+}
+
+.aboutme_p {
+  padding-bottom: 1em;
 }
 
 /* ************************************ */
@@ -94,17 +98,29 @@
   margin-bottom: 2em;
 }
 
+
+
 #projectcard_title{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.em; */
 }
 
 .projectcard div {
   padding-bottom: 0.5em;
 }
 
+.projectcard_description_list {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
 /* ************************************ */
+#projectbutton_div {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
 .projectbutton_icon{
   font-size: 1.6em;
   margin-left: 0.8em;
@@ -117,6 +133,7 @@
 /* ************************************ */
 #projecttechnology{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .projecttech_item {
@@ -131,6 +148,23 @@
 }
 
 /* ************************************ */
+@media screen and (max-width: 280px) {
+  #projectcard_title {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #linksbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linksbar_button {
+    width: 80vw;
+  }
+}
 @media screen and (min-width: 600px) {
   #homepage{
     padding: 3em 3em 1em;
@@ -203,28 +237,34 @@
 
 @media screen and (min-width: 1300px){
   #aboutme {
-    width: 70vw;
+    width: 60vw;
   }
 
-  .projects div{
+  /* .skills {
+    width: 60vw;
+    border: ;
+  } */
+
+  /* .projects div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .projectcard {
+  } */
+  /* .projectcard {
     width: 38vw;
-  }
+    align-content: space-between;
+  } */
 
-  #projectcard_image {
+  /* #projectcard_image {
     margin-right: auto;
-  }
+  } */
 
-  #projectcard_title {
+  /* #projectcard_title {
     width: 100%;
     height: 2.3em;
-  }
+  } */
 
-  .projectcard_text{
+  /* .projectcard_text{
     padding-left: 0;
-  }
+  } */
 }
