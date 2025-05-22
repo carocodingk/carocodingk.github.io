@@ -14,12 +14,12 @@ function ProjectCard({project}){
         </div>
         <div>
           {project.description.map((line, key) => 
-            <p key={key}>{line}</p>
+            <p key={key} className={style.paragraph}>{line}</p>
           )}
           {project.description_list.length > 0?
             <ul className={style.projectcard_description_list}>
               {project.description_list.map((item, key) =>
-                <li>{item}</li>
+                <li className={style.projectcard_description_item}>{item}</li>
               )}
             </ul>
             :

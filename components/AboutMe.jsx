@@ -6,7 +6,7 @@ import {abril_fatface, lato, special_elite} from "../styles/fonts";
 
 function AboutMe(){
   return(
-    <div id={style.aboutme}>
+    <div id={style.aboutme} className={style.section}>
       <div>
         <div id={style.aboutme_container}>
           <Image id={style.aboutme_img} src={info.AboutMe['image']} 
@@ -20,7 +20,7 @@ function AboutMe(){
         <h2 id={style.aboutme_occupation } className={special_elite.className}>{info.AboutMe['occupation'].toUpperCase()}</h2>
         <div id={style.aboutme_text} className={lato.className}>
           {info.AboutMe['description'].map((line, key) => 
-            <p className={style.aboutme_p} key={key}>{line}</p>
+            <p className={style.paragraph} key={key}>{line}</p>
           )}</div>
       </div>
     </div>

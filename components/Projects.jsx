@@ -5,7 +5,7 @@ import style from "../styles/components.module.css"
 
 function Projects(){
   return(
-    <div id='Projects' className={style.projects} >
+    <div id='Projects' className={style.section} >
       <h3 id={style.projects_title} className={special_elite.className}>PROJECTS</h3>
       <div>
         {info.Projects.map((project) => 

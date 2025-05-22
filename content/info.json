@@ -29,7 +29,7 @@
 			"title": "Tic - Tac - Toe",
 			"image": "/profilePic.jpg",
 			"description": [
-				"Web-based tic tac toe game features a clean, responsive interface for two players to compete locally."
+				"Web application based on classic tic tac toe game that features a clean, responsive interface for two players to compete locally."
 			],
 			"description_list": [],
 			"url1": "https://github.com/carocodingk/PomodoroTracker",
