@@ -79,12 +79,12 @@
   margin: 0 5px;
   font-size: 1rem;
   font-weight: 500;
-  border: 1px solid #594140;;
+  border: 1px solid #EDECDE;
   border-radius: 5px;
 }
 
 .linksbar_button:hover {
-  border: 1px solid #EDECDE;
+  border: 1px solid #594140;
   background-color: #A3BCCC;
   color: #EDECDE;
 }
