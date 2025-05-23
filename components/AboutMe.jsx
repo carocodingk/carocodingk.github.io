@@ -11,7 +11,8 @@ function AboutMe(){
         <div id={style.aboutme_container}>
           <Image id={style.aboutme_img} src={info.AboutMe['image']} 
             width={300}
-            height={300}/>
+            height={300}
+            alt={info.AboutMe['alt']} />
         </div>
         <LinksBar />
       </div>

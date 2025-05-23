@@ -8,8 +8,8 @@ function Projects(){
     <div id='Projects' className={style.section} >
       <h3 id={style.projects_title} className={special_elite.className}>PROJECTS</h3>
       <div>
-        {info.Projects.map((project) => 
-          <ProjectCard project={project} />
+        {info.Projects.map((project, key) => 
+          <ProjectCard key={key} project={project} />
         )}
       </div>
     </div>

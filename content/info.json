@@ -3,6 +3,7 @@
 		"name": "Caro CodingK",
 		"occupation": "Software Engineer",
 		"image": "/profilePic.jpg",
+		"alt": "Cropped picture of woman writing on notebook and handling laptop ",
 		"description": [
 			"Hello, World!",
 			"I'm Caro, a motivated Software Engineer with a degree in Computer Science and Electronics Engineering. I absolutely love tech and enjoy building fun stuff on the web. I've spent a lot of time working on personal projects, mostly web apps using React.js, and I enjoy bringing creative ideas to life through code.",
@@ -13,7 +14,7 @@
 	"Projects": [
 		{
 			"title": "Pomodoro Timer and To Do List ",
-			"image": "/profilePic.jpg",
+			"image": "/pomodoro_timer_to_do_list.png",
 			"description": [
 				"Web application designed to enhance productivity by combining a to-do list with a built-in Pomodoro timer. It helps users organize their tasks and work in focused intervals, following the Pomodoro technique."
 			],
@@ -21,24 +22,24 @@
 				"Users can plan their day with an intuitive task list that supports adding, editing, and removing one or tasks.",
 				"The Pomodoro timer allows user to work in 25 minutes focus sessions followed by 5 minutes breaks."
 			],
-			"url1": "https://github.com/carocodingk/PomodoroTracker",
-			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts",
+			"url1": "https://github.com/carocodingk/web-application-pomodoro-timer-to-do-list-nextjs",
+			"url2": "https://web-application-pomodoro-timer-to-do-list-nextjs.vercel.app/",
 			"technology": ["React", "Next.js"]
 		},
 		{
 			"title": "Tic - Tac - Toe",
-			"image": "/profilePic.jpg",
+			"image": "/tic_tac_toe_game.png",
 			"description": [
 				"Web application based on classic tic tac toe game that features a clean, responsive interface for two players to compete locally."
 			],
 			"description_list": [],
-			"url1": "https://github.com/carocodingk/PomodoroTracker",
-			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts",
+			"url1": "https://github.com/carocodingk/web-application-tic-tac-toe-nextjs",
+			"url2": "https://web-application-tic-tac-toe-nextjs.vercel.app",
 			"technology": ["React", "Next.js"]
 		},
 		{
 			"title": "Pet Store Web Application",
-			"image": "/profilePic.jpg",
+			"image": "/pet_store.png",
 			"description": [
 				"E-commerce platform tailored for a pet store, built to deliver a smooth and scalable user experience. It includes core functionalities such as:"
 			],
@@ -52,25 +53,25 @@
 			"technology": ["React"]
 		},
 		{
-			"title": "Personal Portfolio",
-			"image": "/profilePic.jpg",
+			"title": "Professional Portfolio",
+			"image": "/professional_portfolio.png",
 			"description": [
 				"Lightweight, single-page resume website designed to present an individual's professional profile in a clean, modern, and accessible format."
 			],
 			"description_list": [],
-			"url1": "https://github.com/carocodingk/PomodoroTracker",
-			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts",
+			"url1": "https://github.com/carocodingk/webpage-professional-portfolio-react",
+			"url2": "https://carocodingk.github.io/webpage-professional-portfolio-react/",
 			"technology": ["JavaScript", "HTML", "CSS"]
 		},
 		{
-			"title": "Personal Resume",
-			"image": "/profilePic.jpg",
+			"title": "Professional Resume",
+			"image": "/professional_resume.png",
 			"description": [
 				"Simple yet elegant portfolio webpage designed to present personal or professional work in a visually appealing and accessible format. Built with a focus on responsiveness and performance, it provides a lightweight and polished platform to highlight projects, skills, and contact information."
 			],
 			"description_list": [],
-			"url1": "https://github.com/carocodingk/PomodoroTracker",
-			"url2": "https://nextjs.org/docs/app/getting-started/images-and-fonts", 
+			"url1": "https://github.com/carocodingk/webpage-professional-resume",
+			"url2": "https://carocodingk.github.io/webpage-professional-resume/", 
 			"technology": ["JavaScript", "HTML", "CSS"]
 		}
 	]

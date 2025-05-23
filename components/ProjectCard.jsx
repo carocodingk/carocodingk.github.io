@@ -19,7 +19,7 @@ function ProjectCard({project}){
           {project.description_list.length > 0?
             <ul className={style.projectcard_description_list}>
               {project.description_list.map((item, key) =>
-                <li className={style.projectcard_description_item}>{item}</li>
+                <li key={key} className={style.projectcard_description_item}>{item}</li>
               )}
             </ul>
             :
@@ -28,8 +28,8 @@ function ProjectCard({project}){
         <ProjectTechnology technology={project.technology}/>
       </div>
       <Image src= {project.image} id={style.projectcard_image}
-        width={200}
-        height={200} />
+        width={300}
+        height={167} />
     </div>
   );
 }
