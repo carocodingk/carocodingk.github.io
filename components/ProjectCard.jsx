@@ -28,6 +28,7 @@ function ProjectCard({project}){
         <ProjectTechnology technology={project.technology}/>
       </div>
       <Image src= {project.image} id={style.projectcard_image}
+        alt={project.alt}
         width={300}
         height={167} />
     </div>

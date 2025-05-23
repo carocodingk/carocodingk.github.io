@@ -15,6 +15,7 @@
 		{
 			"title": "Pomodoro Timer and To Do List ",
 			"image": "/pomodoro_timer_to_do_list.png",
+			"alt": "Screenshot of web app of Pomodoro timer and to do list",
 			"description": [
 				"Web application designed to enhance productivity by combining a to-do list with a built-in Pomodoro timer. It helps users organize their tasks and work in focused intervals, following the Pomodoro technique."
 			],
@@ -29,6 +30,7 @@
 		{
 			"title": "Tic - Tac - Toe",
 			"image": "/tic_tac_toe_game.png",
+			"alt": "Screenshot of web app of tic tac toe game",
 			"description": [
 				"Web application based on classic tic tac toe game that features a clean, responsive interface for two players to compete locally."
 			],
@@ -40,6 +42,7 @@
 		{
 			"title": "Pet Store Web Application",
 			"image": "/pet_store.png",
+			"alt": "Screenshot of web app of pet store",
 			"description": [
 				"E-commerce platform tailored for a pet store, built to deliver a smooth and scalable user experience. It includes core functionalities such as:"
 			],
@@ -55,6 +58,7 @@
 		{
 			"title": "Professional Portfolio",
 			"image": "/professional_portfolio.png",
+			"alt": "Screenshot of website for a professional portfolio",
 			"description": [
 				"Lightweight, single-page resume website designed to present an individual's professional profile in a clean, modern, and accessible format."
 			],
@@ -66,6 +70,7 @@
 		{
 			"title": "Professional Resume",
 			"image": "/professional_resume.png",
+			"alt": "Screenshot of webpage for a professional resume",
 			"description": [
 				"Simple yet elegant portfolio webpage designed to present personal or professional work in a visually appealing and accessible format. Built with a focus on responsiveness and performance, it provides a lightweight and polished platform to highlight projects, skills, and contact information."
 			],
